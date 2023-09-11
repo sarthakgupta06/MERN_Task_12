@@ -1,0 +1,43 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+div.one{
+    margin-top: 50px;
+    background: rgb(199, 31, 84);
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+div.two{
+    background: rgb(122, 11, 46);
+    width: 500px;
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+}
+div.three{
+    margin-left: 80px;
+}
+button.reg{
+    margin-left: 0px;
+    width: 275px;
+    height: 30px;
+}
+button:hover{
+    background-color: lightgray;
+    outline: none;
+    border: none;
+}
+.about{
+    width: 162px;
+    height: 30px;
+}
+input{
+    outline: none;
+}      
+input:focus::placeholder{
+    color: transparent;
+}
